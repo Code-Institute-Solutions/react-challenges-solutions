@@ -1,0 +1,77 @@
+.NavBar {
+    grid-row: 1;
+    grid-column: 1 / span 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding: 0px 75px;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+}
+
+.NavBar h1 {
+    font-family: "montserrat";
+    font-size: 28px;
+    color: #4a4a4f;
+}
+
+.NavBar span {
+    font-family: "montserrat";
+    font-size: 14px;
+    color: #4a4a4f;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.NavBar > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.NavBar form {
+    display: flex;
+    flex-direction: row;
+}
+
+.NavBar label {
+    color: #4a4a4f;
+    margin: 1px;
+    padding: 5px 0 5px;
+    padding-right: 10px;
+}
+
+.NavBar input {
+    margin: 1px;
+    margin-right: 10px;
+    width: 150px;
+    border: 1px solid lightgrey;
+    padding: 2px 5px;
+    background-color: white;
+}
+
+.NavBar form > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.NavBar #login-form > div{
+    display: inline-block;
+}
+
+.NavBar button {
+    color: #4a4a4f;
+    border: lightgrey solid 1px;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    margin-left: 5px;
+}
+.NavBar button:hover{
+    color: #4a4a4f;
+    background-color: #e6ecf0;
+    border: lightgrey solid 1px;
+}

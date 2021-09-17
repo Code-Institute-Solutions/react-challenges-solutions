@@ -1,0 +1,59 @@
+.SearchItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    max-width: 80%;
+    box-shadow: 0px 10px 30px rgb(238, 238, 238);
+
+}
+
+.Content {
+    grid-row: 2;
+    grid-column: 2;
+    padding: 5px;
+    padding-right: 60px;
+}
+
+.Content h1{
+    color: #4a4a4f;
+    font-size: 20px;
+    text-align: left;
+}
+
+.TitleBar {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.TitleBar form{
+    text-align:right;
+    font-family: montserrat;
+    color: #4a4a4f;
+}
+
+.TitleBar form input{
+    border: 1px solid lightgrey;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+.TitleBar h1{
+    margin-top: 0;
+}
+
+.Content h4 {
+    font-size: 14px;
+    color: #009FE3;
+    text-align: right;
+    margin-top: 0;
+}
+
+.SearchResults {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}

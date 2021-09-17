@@ -1,0 +1,21 @@
+.SearchItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    max-width: 80%;
+    box-shadow: 0px 10px 30px rgb(238, 238, 238);
+
+}
+
+.SearchItem > div {
+    padding: 10px;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
